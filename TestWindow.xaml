@@ -16,9 +16,5 @@
             <ColumnDefinition Width="421*"/>
             <ColumnDefinition Width="71*"/>
         </Grid.ColumnDefinitions>
-        <Image Name="ImageImg" Source="Resources/med.jpg" RenderOptions.BitmapScalingMode="HighQuality" Stretch="Fill" Width="200" Height="200" Margin="146,60,75.182,209" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        <TextBlock Name="TextTb" Width="400" Height="50" Margin="46,304,46,115" Grid.ColumnSpan="2"/>
-        <Button Name="Button1" Margin="71,410,200.182,9" Width="150" Height="50" Click="Button1_Click"/>
-        <Button Name="Button2" Margin="271,410,0.182,9" Width="150" Height="50" Click="Button2_Click"/>
-    </Grid>
+        </Grid>
 </Window>
