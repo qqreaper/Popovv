@@ -7,6 +7,11 @@
         mc:Ignorable="d"
         Title="TestWindow" Height="500" Width="500" WindowStyle="ToolWindow">
     <Grid>
+
+        <TextBlock Name="TextTb" Width="400" Height="50" Margin="10 200 10 10"/>
+        <Button Name="Button1" Margin="0 400 200 0" Width="150" Height="50" Click="Button1_Click"/>
+        <Button Name="Button2" Margin="200 400 0 0" Width="150" Height="50" Click="Button2_Click"/>
+
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="421*"/>
             <ColumnDefinition Width="71*"/>
